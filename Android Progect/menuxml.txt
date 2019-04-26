@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundOfMenu_view"
+        android:layout_width="wrap_content"
+        android:layout_height="751dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="263dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="544dp"
+        android:onClick="onClick"
+        android:text="Start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
