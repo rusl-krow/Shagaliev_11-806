@@ -1,0 +1,212 @@
+body
+{
+    margin 0;
+    background:"fff";
+    font-size: 5px;
+    color: #333;
+    line-height: 1;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.shapka{
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+    color: red;
+    text-align: center;
+    line-height: .5;
+}
+.shapka:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin: 0 auto; 
+    background-color: black;
+    opacity: .2;
+    line-height: .5;
+    
+}
+.shapka:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin: 0 auto; 
+    background-color: black;
+    line-height: 3;
+    
+}
+.main{
+    margin-top: 15;
+    text-align: center;
+    line-height: .6;
+    
+}
+.vedomosti{
+ font-size: 190;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.mitropolia{
+    margin: 0;
+    font-size: 33;
+    width: 100%;
+    color: black;
+    text-align: center;
+
+}
+.isd {
+    margin: 0;
+    font-size: 9;
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-color: #e5e6eb;
+    padding: 1px;
+}
+.data{
+    margin: 0;
+    font-size: 11;
+    width: 100%;
+    color: black;
+    text-align: center;
+    opacity: .6;
+}
+.colomn1{   
+    width: 1000px;
+    font-size: 8;
+    background-color: #e5e6eb;
+    position: absolute;
+}
+.sobitie{
+    background-color: #6c73c6;
+    font-size: 10;
+    text-align: center;
+    padding: 2px;
+    width: 1000px;
+    
+}
+.inf2{
+    line-height: 1;
+    font-size: 10;
+    right: 0;
+}
+.str4{
+  text-align: right;
+    margin-right: 20;
+    max-height: 25;
+    font-size: 11;
+}
+.colomn2{
+   width: 460px;
+    font-size: 8;
+    left: 1050;
+    
+    position: absolute;
+}
+.anons{
+    text-align: center;
+    background-color: #6c73c6;
+    font-size: 10;
+    padding: 1px;
+}
+.inf{
+    line-height: 1;
+    font-size: 10;
+}
+.part2{
+    margin-top:520;
+}
+.left{
+  width: 240;
+    text-align: left;
+    position: absolute;
+}
+.number{
+    width: 240;
+    text-align: left;
+    
+}
+.number1{
+    background-color: #6c73c6;
+    padding: 2px; 
+    text-align: center;
+    font-size: 10;
+}
+.first5{
+    color: red;
+    font-size: 13;
+    text-align: left;
+}
+.second5{
+    font-size: 10;
+    text-align: left;
+    color: black;
+}
+.third5{
+    font-size: 13;
+    text-align: left;
+    color: black;
+    
+}
+.first8{
+    color: red;
+    font-size: 13;
+}
+.second8{
+    font-size: 10;
+}
+.third8{
+    font-size: 13;
+}
+.first9{
+    color: red;
+    font-size: 13;
+}
+.second9{
+    font-size: 10;
+}
+.third9{
+    font-size: 13;
+}
+.first14{
+    color: red;
+    font-size: 13;
+}
+.second14{
+    font-size: 10;
+}
+.third14{
+    font-size: 13;
+}
+.qwer{
+width: 1240px;
+    height: 50px;
+    background-color: #6c73c6;
+}
+.right{
+    width: 1200px;
+    position: absolute;
+    left: 270;
+    height: auto;
+}
+.image2{
+    top: 50;
+    position: absolute;
+}
+.text{
+  color: red;
+    font-size: 25;
+    margin-top: 700;
+}
+.str5{
+    text-align: right;
+    font-size: 13;
+    color: red;
+}
+
